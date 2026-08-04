@@ -2,12 +2,36 @@
 
 編程的材料
 
-第一種材料是 built-in types。第二種材料是 operators。第三種材料是 control flow statements。第四種材料是 interface creation syntax。第五種材料是 class creation syntax。
+第一種材料是 built-in types。
+
+第二種材料是 operators。
+
+第三種材料是 control flow statements。
+
+第四種材料是 interface creation syntax。
+
+第五種材料是 class creation syntax。
 
 編程的步驟
 
-第一步是程序員（programmer）使用 C 語言編程，得到 hello.c。第二步是預處理器（cpp）根據以字符 # 開頭的命令修改原始的 C 程序，得到另一个 C 語言程序 hello.i。第三步是編譯器（ccl）將 hello.i 翻譯成匯編語言程序，得到 hello.s。第四步是滙編器（as）將 hello.s 翻譯成機器語言程序，得到 hello.o。第五步是鏈接器（ld）將 hello.o 和 printf.o 合并在一起，得到另一個機器語言程序 hello。
+第一步是程序員（programmer）使用 C 語言編程，得到 hello.c。
+
+第二步是預處理器（cpp）根據以字符 # 開頭的命令修改原始的 C 程序，得到另一个 C 語言程序 hello.i。
+
+第三步是編譯器（ccl）將 hello.i 翻譯成匯編語言程序，得到 hello.s。
+
+第四步是滙編器（as）將 hello.s 翻譯成機器語言程序，得到 hello.o。
+
+第五步是鏈接器（ld）將 hello.o 和 printf.o 合并在一起，得到另一個機器語言程序 hello。
 
 映像的佈局
 
-第一段映像是 code segment，包含 executable instructions。第二段映像是 data segment，包含 nonzero-initialized static/global variables。第三段映像是 BSS segment，包含 zero-initialized static/global variables。第四段映像是 heap segment，包含 dynamically allocated memory。第五段映像是 stack segment，包含 call stack。
+第一段映像是 code segment，包含 executable instructions。
+
+第二段映像是 data segment，包含 nonzero-initialized static/global variables。
+
+第三段映像是 BSS segment，包含 zero-initialized static/global variables。
+
+第四段映像是 heap segment，包含 dynamically allocated memory。
+
+第五段映像是 stack segment，包含 call stack。
