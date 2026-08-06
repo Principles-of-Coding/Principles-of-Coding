@@ -2,7 +2,7 @@
 
 編程的材料
 
-第一種材料是 built-in types。
+第一種材料是 builtin types。
 
 第二種材料是 operators。
 
