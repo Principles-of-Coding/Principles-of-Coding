@@ -6,7 +6,7 @@
 
 第二種：Uniform Pipe and Filter
 
-把過濾器組織成流水綫，並且讓所有過濾器采用統一的接口。
+把過濾器組織成流水綫，並且讓所有過濾器使用統一的接口。
 
 第三種：Replicated Repository
 
